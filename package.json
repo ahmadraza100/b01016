@@ -1,0 +1,20 @@
+{
+  "name": "iot-device-raspberry-pi",
+  "version": "1.0.0",
+  "description": "IoT Device Simulator for Raspberry Pi with DID-based authentication",
+  "main": "device-simulator.js",
+  "scripts": {
+    "start": "node device-simulator.js",
+    "benchmark": "node benchmark.js",
+    "test": "node device-simulator.js --server http://localhost:3000 --interval 2000"
+  },
+  "keywords": ["iot", "did", "blockchain", "raspberry-pi", "hyperledger"],
+  "author": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
