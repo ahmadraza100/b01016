@@ -2,6 +2,8 @@
 
 This folder contains everything needed to run the IoT device simulator on your Raspberry Pi.
 
+https://293ce5de1c14.ngrok-free.app
+
 ---
 
 ## 📦 What's Included
